@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s, font-size 0.3s;
+  font-size: 16px;
+}
+
+/* Cabeçalho */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  margin-bottom: 15px;
+}
+
+/* Botões de acessibilidade */
+.acessibilidade-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.acessibilidade-buttons button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.acessibilidade-buttons button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.acessibilidade-buttons button:focus {
+  outline: 3px solid #ffa500;
+  outline-offset: 2px;
+}
+
+/* Alto contraste */
+.alto-contraste {
+  background-color: black;
+  color: white;
+}
+
+.alto-contraste a {
+  color: yellow;
+}
+
+/* Modo leitura fácil */
+.leitura-facil {
+  font-family: "Verdana", sans-serif;
+  line-height: 1.8;
+}
+
+/* Links sublinhados */
+.links-sublinhados a {
+  text-decoration: underline !important;
+}
+
+/* Modo noturno */
+.modo-noturno {
+  background-color: #1c1c1c;
+  color: #ddd;
+}
+
+.modo-noturno a {
+  color: #66ccff;
+}
+
+/* Sem animações */
+.sem-animacoes * {
+  transition: none !important;
+}
+
+/* Links normais */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
